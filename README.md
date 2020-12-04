@@ -8,31 +8,33 @@ This report assesses impact of the "Silver Tsunami" on Pewlett-Hackard by quanti
 
 ## Results
 
-### Vacancies by Job Title
+### Number of Retirees by Job Title
 
-INSERT PICTURE HERE
+![Vacancies by Job Title](https://github.com/juberr/Pewlett-Hackard-Analysis/blob/main/Readme%20Resources/Screen%20Shot%202020-12-01%20at%203.59.45%20PM.png?raw=true)
 
 * The total number of predicted retirees is <b>90,398</b>.
 
 * The jobs with the largest number of predicted vacancies are "Senior Engineer" and "Senior Staff". This follows as those in senior positions are generally older. Pewlett-Hackard should prioritize these positions as they prepare for the "Silver Tsunami".
 
+* The number of Mangers anticipated to leave is suspiciously low. Is our database not tracking these correctly?
+
 
 
 ### Mentorship Eligibility
 
-INSERT PICTURE HERE
+![Mentorship Eligibility](https://github.com/juberr/Pewlett-Hackard-Analysis/blob/main/Readme%20Resources/Screen%20Shot%202020-12-01%20at%201.11.38%20PM.png?raw=true)
 
-* The number of those elgibile for mentorship is <b>1549</b>
+* The total number of those eligible for mentorship is <b>1549</b>
 
-* As this number is significantly less than the total number of predicted retirees, Pewlett-Hackard should find additional solutions to the "Silver Tsunami". Other solutions to consider are hiring external mentors to supplement the job transitions, and creating learning resources to supplement the knowledge transfer the mentorship program would deliver.
+* As this number is significantly less than the total number of predicted retirees, those eligible for mentorship will have a wealth of experience to learn from this program.
 
 
 ## Summary
 
-* As the "Silver Tsunami" makes an impact on organizations, Pewlett-Hackard should estimate there will be <b>90,398</b> roles to fill as Baby Boomers retire.
+* As the "Silver Tsunami" makes its impact on organizations, Pewlett-Hackard should estimate that there will be <b>90,398</b> roles to fill over the course of it.
 
-* The number of qualified, retirement-ready employees (<b>1,549</b>) is not enough to mentor the next generation of Pewlett Hackard employees. The ratio of mentor to mentee would be approximately <b>1:58</b>, which would not be a healthy learning environment.
+* The number of retirement-ready employees (<b>90,398</b>)  is much larger than the number of mentorship-ready employees (<b>1,549</b>). While this means the current Pewlett-Hackard talent pool has a wealth of experience to learn from, they will not be able to fully replace the "Silver Tsunami" with this program alone. Pewlett-Hackard should consider external methods to compensate.
 
-* A  query to consider would append the current annual salary cost of the 90,398 predicted to retire by title. With salary cost in mind, this can incentivize Pewlett-Hackard to research alternatives to hiring direct replacements for the "Silver Tsunami" (e.g. technological advancements to replace labour).
+* A query to consider would be to append the current annual salary cost of the 90,398 predicted to Retirees by title. With salary cost in mind, this can incentivize Pewlett-Hackard to research alternatives to hiring direct replacements for the "Silver Tsunami" (e.g. technological advancements to replace the labour capacity of those retiring).
 
-* Another query to consider is a view of retirees by department rather than job title. This would allow Pewlett-Hackard to know if any departments may be unporportionally affected by the "Silver Tsunami".
+* Another query to consider is the amount of "new hires" within Pewlett-Hackard (say within the past year). This will give Pewlett-Hackard a current look at their hiring rates, and can a better sense of how to adjust it as the "Silver Tsunami" approaches.
